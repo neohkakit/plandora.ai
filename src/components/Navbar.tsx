@@ -44,7 +44,7 @@ export function Navbar() {
         {/* CTA */}
         <Link
           href="#create"
-          className="flex shrink-0 items-center bg-[#ff2d8a] px-6 text-[15px] font-medium text-white transition hover:bg-[#e8287d]"
+          className="flex shrink-0 items-center bg-brand-pink px-6 text-[15px] font-medium text-white transition hover:bg-brand-pink-hover"
         >
           Create your mind
         </Link>

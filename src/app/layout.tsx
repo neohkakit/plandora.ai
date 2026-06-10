@@ -3,13 +3,13 @@ import { plusJakartaSans } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Launchpad — Ship your product faster",
+  title: "Mind-in-Bio",
   description:
-    "The all-in-one platform to launch, grow, and scale your SaaS. Start free, no credit card required.",
+    "A link-in-bio with your mind that sells and converts using storytelling for creators and businesses.",
   openGraph: {
-    title: "Launchpad — Ship your product faster",
+    title: "Mind-in-Bio",
     description:
-      "The all-in-one platform to launch, grow, and scale your SaaS.",
+      "A link-in-bio with your mind that sells and converts using storytelling for creators and businesses.",
     type: "website",
   },
 };
