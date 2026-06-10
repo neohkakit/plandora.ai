@@ -43,10 +43,10 @@ export function Navbar() {
 
         {/* CTA */}
         <Link
-          href="#create"
+          href="https://plandora.com/waitlist/twin/"
           className="flex shrink-0 items-center bg-brand-pink px-6 text-[15px] font-medium text-white transition hover:bg-brand-pink-hover"
         >
-          Create your mind
+          Join the waitlist
         </Link>
       </div>
     </header>

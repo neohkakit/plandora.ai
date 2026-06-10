@@ -5,7 +5,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 
 const EYEBROW = "Your, Mind-in-Bio";
 const CTA_LABEL = "Join the waitlist";
-const CTA_HREF = "#create";
+const CTA_HREF = "https://plandora.com/waitlist/twin/";
 
 const SLIDES = [
   {
@@ -22,7 +22,7 @@ const SLIDES = [
   },
   {
     src: "/images/hero-3.gif",
-    lines: ["Never Miss", "Opportunity"],
+    lines: ["Never Miss", "Opportunities"],
     subtext:
       "Your mind-in-bio never misses an opportunity to sell, convert and capture leads in your personality.",
   },
@@ -147,20 +147,20 @@ export function HeroCarousel() {
         onLoad={handleImageReady}
       />
 
-      <div className="absolute top-1/2 left-1/2 flex w-[calc(100%-100px)] -translate-x-1/2 -translate-y-1/2 items-center sm:justify-between">
-        <p className="text-5xl font-bold leading-tight text-white sm:text-6xl">
+      <div className="absolute top-1/2 left-1/2 z-20 flex w-[calc(100%-100px)] -translate-x-1/2 -translate-y-1/2 items-center sm:justify-between">
+        <p className="pointer-events-none text-5xl font-bold leading-tight text-white sm:text-6xl">
           {EYEBROW}
         </p>
 
         <Link
           href={CTA_HREF}
-          className="pointer-events-auto hidden shrink-0 bg-white px-6 py-3 text-[15px] font-semibold text-black transition hover:bg-white/90 sm:inline-flex"
+          className="relative z-30 inline-flex shrink-0 bg-white px-6 py-3 text-[15px] font-semibold text-black transition hover:bg-white/90 max-sm:hidden"
         >
           {CTA_LABEL}
         </Link>
       </div>
 
-      <div className="relative flex h-full min-h-[inherit] flex-col justify-end p-[50px]">
+      <div className="pointer-events-none relative z-10 flex h-full min-h-[inherit] flex-col justify-end p-[50px]">
         <div
           className="max-w-md sm:max-w-lg lg:max-w-xl"
           aria-live="polite"
@@ -193,7 +193,7 @@ export function HeroCarousel() {
         </div>
       </div>
 
-      <div className="pointer-events-none absolute bottom-[50px] left-1/2 flex -translate-x-1/2 items-center gap-2 opacity-60">
+      <div className="pointer-events-none absolute bottom-[50px] left-1/2 z-20 flex -translate-x-1/2 items-center gap-2 opacity-60">
         {SLIDES.map((slide, slideIndex) => {
           const isActive = slideIndex === index;
 
