@@ -15,13 +15,13 @@ export default function AboutPage() {
       <Navbar />
 
       <main className="flex justify-center px-6 py-16 sm:px-10 md:py-24 lg:px-16">
-        <article className="w-full max-w-[680px] px-[100px] text-left">
+        <article className="w-full max-w-[680px] px-[50px] text-left">
           <p className="mb-6 text-[15px] font-medium leading-[1.5] tracking-[-0.02em] text-[#292929]">
             Written by @kitneoh, 12 July 2026.
           </p>
 
           <h1 className="mb-5 text-[clamp(2rem,5vw,2.75rem)] font-bold leading-[1.2] tracking-[-0.035em]">
-            1 person. $1M. 24/7.
+            1 person. $1M business. 24/7.
           </h1>
 
           <AboutAudio />
