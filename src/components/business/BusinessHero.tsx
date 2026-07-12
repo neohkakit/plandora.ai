@@ -64,6 +64,7 @@ export function BusinessHero() {
           alt="A library with tall bookshelves overlooking an autumn sunset"
           fill
           priority
+          unoptimized
           sizes="66.67vw"
           className="object-cover"
         />

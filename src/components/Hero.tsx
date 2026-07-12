@@ -48,6 +48,7 @@ export function Hero() {
           alt="A warmly lit home office overlooking a city at dusk"
           fill
           priority
+          unoptimized
           sizes="66.67vw"
           className="object-cover"
         />
