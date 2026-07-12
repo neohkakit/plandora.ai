@@ -5,7 +5,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 
 const EYEBROW = "Your, Mind-in-Bio";
 const CTA_LABEL = "Join the waitlist";
-const CTA_HREF = "https://plandora.com/waitlist/twin/";
+const CTA_HREF = "https://plandora.com/waitlist/mind/";
 
 const SLIDES = [
   {
