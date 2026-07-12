@@ -7,7 +7,7 @@ export function BusinessPlanExitSection() {
   return (
     <section className="relative min-h-[min(100svh,640px)] w-full overflow-hidden">
       <Image
-        src="/images/business-plan-exit-section@2x.png"
+        src="/images/business-plan-exit-section@2x.jpg"
         alt="A university campus at dusk with students walking between buildings"
         fill
         sizes="100vw"

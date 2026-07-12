@@ -60,7 +60,7 @@ export function BusinessHero() {
 
       <div className="relative hidden overflow-hidden lg:col-span-8 lg:block lg:min-h-0">
         <Image
-          src="/images/business-page-hero.png"
+          src="/images/business-page-hero.jpg"
           alt="A library with tall bookshelves overlooking an autumn sunset"
           fill
           priority

@@ -44,7 +44,7 @@ export function Hero() {
 
       <div className="relative hidden overflow-hidden lg:col-span-8 lg:block lg:min-h-0">
         <Image
-          src="/images/business-hero.png"
+          src="/images/business-hero.jpg"
           alt="A warmly lit home office overlooking a city at dusk"
           fill
           priority
