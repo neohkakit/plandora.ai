@@ -3,13 +3,13 @@ import { plusJakartaSans } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Mind-in-Bio",
+  title: "Plandora | AI for Creators and Businesses to run 24/7",
   description:
-    "A link-in-bio with your mind that sells and converts using storytelling for creators and businesses.",
+    "Plandora is an AI Agent with your Digital Mind to answer repeated questions, sells products and recommend affiliate 24/7 for creators and businesses.",
   openGraph: {
-    title: "Mind-in-Bio",
+    title: "Plandora | AI for Creators and Businesses to run 24/7",
     description:
-      "A link-in-bio with your mind that sells and converts using storytelling for creators and businesses.",
+      "Plandora is an AI Agent with your Digital Mind to answer repeated questions, sells products and recommend affiliate 24/7 for creators and businesses.",
     type: "website",
   },
 };
