@@ -7,11 +7,11 @@ export function BusinessHero() {
   return (
     <section
       id="business"
-      className="grid min-h-[calc(100svh-50px)] flex-1 bg-white md:grid-cols-12"
+      className="grid min-h-[calc(100svh-50px)] flex-1 bg-white lg:grid-cols-12"
     >
       <div
         id="about"
-        className="flex min-h-[calc(100svh-50px)] shrink-0 flex-col justify-between px-6 py-6 sm:px-10 md:col-span-4 md:items-start md:px-6 lg:px-8"
+        className="flex min-h-[calc(100svh-50px)] shrink-0 flex-col justify-between px-6 py-6 sm:px-10 lg:col-span-4 lg:items-start lg:px-8"
       >
         <div className="flex flex-col gap-4">
           <h1 className="flex flex-col items-start gap-0.5 text-[clamp(2.25rem,4.2vw,3.5rem)] font-bold leading-[1.28] tracking-[-0.035em] text-[#2c2c2c]">
@@ -58,13 +58,13 @@ export function BusinessHero() {
         </Link>
       </div>
 
-      <div className="relative min-h-[55svh] overflow-hidden md:col-span-8 md:min-h-0">
+      <div className="relative hidden overflow-hidden lg:col-span-8 lg:block lg:min-h-0">
         <Image
           src="/images/business-page-hero.png"
           alt="A library with tall bookshelves overlooking an autumn sunset"
           fill
           priority
-          sizes="(min-width: 768px) 66.67vw, 100vw"
+          sizes="66.67vw"
           className="object-cover"
         />
       </div>
