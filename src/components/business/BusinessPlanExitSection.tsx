@@ -10,6 +10,7 @@ export function BusinessPlanExitSection() {
         src="/images/business-plan-exit-section@2x.jpg"
         alt="A university campus at dusk with students walking between buildings"
         fill
+        unoptimized
         sizes="100vw"
         className="object-cover"
       />
