@@ -15,7 +15,7 @@ export function Hero() {
       >
         <div className="flex flex-col gap-4 max-md:pt-[60px]">
           <h1 className="flex flex-col items-start gap-0.5 text-[clamp(2.25rem,4.2vw,3.5rem)] font-bold leading-[1.28] tracking-[-0.035em] text-[#2c2c2c]">
-            <span>1 person</span>
+            <span>Agentic AI</span>
             <span>$1M business</span>
             <span>24/7</span>
           </h1>

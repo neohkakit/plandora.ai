@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const navLinks = [
   { label: "About", href: "/about" },
-  { label: "Business", href: "/business" },
+  { label: "Enterprise", href: "/business" },
 ];
 
 function NavDivider() {
